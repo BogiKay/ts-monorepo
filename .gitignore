@@ -1,3 +1,5 @@
 node_modules/
 apps/*/build/
 packages/*/build/
+apps/*/tsconfig.tsbuildinfo
+packages/*/tsconfig.tsbuildinfo
