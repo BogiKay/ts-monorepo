@@ -4,11 +4,11 @@
   "description": "A monorepo in TypeScript",
   "private": true,
   "scripts": {
-    "build": "tsc --build --verbose"
+    "build": "tsc --build --verbose --force"
   },
   "workspaces": [
-    "./packages/*",
-    "./apps/*"
+    "packages/*",
+    "apps/*"
   ],
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^8.15.0",

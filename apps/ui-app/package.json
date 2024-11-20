@@ -6,8 +6,6 @@
   "scripts": {
     "build": "tsc --build"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "@monorepo/utils": "^1.0.0"
   }

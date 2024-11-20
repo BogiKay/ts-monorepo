@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "incremental": true,
-    "target": "ES2023",
+    "target": "ES2022",
     "module": "commonjs",
     "declaration": true,
     "strict": true,
@@ -12,12 +12,12 @@
     "rootDir": "./src",
     "outDir": "./build",
   },
-  "files": [
-
-  ],
+  "files": [],
   "references": [
     {
-      "path": ["./packages/utils", "./apps/ui-app"]
+      "path": "./apps/ui-app/tsconfig.json",
+      }, {
+      "path": "./packages/utils/tsconfig.json"
     }
   ]
 }
