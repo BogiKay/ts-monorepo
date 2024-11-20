@@ -17,7 +17,7 @@
   ],
   "references": [
     {
-      "path": "./packages/utils",
+      "path": ["./packages/utils", "./apps/ui-app"]
     }
   ]
 }

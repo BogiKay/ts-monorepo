@@ -1,0 +1,14 @@
+{
+  "name": "@monorepo/ui-app",
+  "version": "1.0.0",
+  "description": "UI app",
+  "main": "./build/index.js",
+  "scripts": {
+    "build": "tsc --build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@monorepo/utils": "^1.0.0"
+  }
+}
